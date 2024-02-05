@@ -91,16 +91,16 @@ input, select, textarea {
 }
   @media screen and (max-width: 480px) {
   	.profile-img {
-		height: 100px;
+		  height: 100px;
     	width: 100px;
-		margin: 10px auto;
+		  margin: 10px auto;
     	display: block;
   	}
 }
 
 
 .nav-left {
-	float: left;
+	  float: left;
     margin-top: 10px;
     text-decoration: none;
     border-bottom: none;
@@ -108,9 +108,9 @@ input, select, textarea {
 
 /* Basic */
 
-@-ms-viewport {
+/*@-ms-viewport {
 	width: device-width;
-}
+}*/
 
 body {
 	-ms-overflow-style: scrollbar;
@@ -3361,13 +3361,13 @@ hr.major {
 		}
 
 /* Wrapper */
-	#wrapper > header > .inner {
+	#wrapper > #header > .inner {
 		text-align: center;
 	}
 
 	#wrapper > * > .inner {
 		width: 100%;
-		max-width: 68em;
+		max-width: 70em;
 		margin: 0 auto;
 		padding: 0 2.5em;
 	}
