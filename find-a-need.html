@@ -1,10 +1,11 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Ithaca Kombucha Co.</title>
+		<title>Find a need and fill it</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="assets/js/modernizr.js"></script> <!-- Modernizr -->
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<style>
 			body {
@@ -14,23 +15,25 @@
     	</style>
 	</head>
 	<body class="is-preload" onload="document.body.style.opacity='1'">
+
 	<!-- Wrapper -->
+		<div id="header2"></div>
 		<div id="wrapper">
 		<!-- Header -->
-		<header id="header">
+	<!-- 	<header id="header">
 			<div class="inner">
-			<!-- Logo -->
+	
 				<a href="index.html" class="logo">
-					<span class="symbol"><img src="images/jess-the-maker-horizontal.svg" alt="" /></span>
+					<span class="symbol"><img src="images/jh-monogram.svg" alt="" /></span>
 				</a>
-			<!-- Nav -->
+	
 				<nav>
 					<ul>
 						<li><a href="#menu">Menu</a></li>
 					</ul>
 				</nav>
 			</div>
-		</header>
+		</header> -->
 		
 		<!-- Menu -->
 		<nav id="menu">
@@ -85,21 +88,21 @@
 						</ul>
 					</form>
 				</section>
-				<section>
+				<!-- <section>
 					<h2>Follow</h2>
-					<ul class="icons">
+					<ul class="icons"> -->
 						<!-- <li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
 						<li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li> -->
-						<li><a href="https://www.instagram.com/jessthemaker" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="https://www.dribbble.com/jessthemaker" class="icon brands style2 fa-dribbble"><span class="label">Dribbble</span></a></li>
+						<!-- <li><a href="https://www.instagram.com/jessthemaker" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="https://www.dribbble.com/jessthemaker" class="icon brands style2 fa-dribbble"><span class="label">Dribbble</span></a></li> -->
 					<!-- 	<li><a href="#" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
 						<li><a href="#" class="icon brands style2 fa-500px"><span class="label">500px</span></a></li>
 						<li><a href="#" class="icon solid style2 fa-phone"><span class="label">Phone</span></a></li> -->
-						<li><a href="mailto:hello@jessthemaker.com" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+						<!-- <li><a href="mailto:hello@jessthemaker.com" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
 					</ul>
-				</section>
+				</section> -->
 				<ul class="copyright">
-					<li>&copy; 2021 Jess The Maker. All rights reserved</li>
+					<li>&copy; 2024 Jess Hana. All rights reserved</li>
 				</ul>
 			</div>
 		</footer>
@@ -111,5 +114,23 @@
 		<script src="assets/js/breakpoints.min.js"></script>
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
+		<script>
+		// Function to load HTML content into an element
+			function loadContent(url, target) {
+			  fetch(url)
+			    .then(response => response.text())
+			    .then(data => {
+			      document.querySelector(target).innerHTML = data;
+			    })
+			    .catch(error => console.log('Error fetching data:', error));
+			}
+
+			// Call the loadContent function with the URL of the HTML file and the target element
+		loadContent('header.html', '#header2');
+		</script>
+
 	</body>
+</div>
+
+
 </html>

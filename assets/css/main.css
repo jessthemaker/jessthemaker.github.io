@@ -98,6 +98,9 @@ input, select, textarea {
   	}
 }
 
+.margin-top {
+	margin-top: 1em !important;
+}
 
 .nav-left {
 	  float: left;
@@ -204,7 +207,7 @@ h1 {
 	font-size: 2.3em;
 	font-weight: 700;
 	line-height: 1.3;
-	margin: 0 0 1em 0;
+	margin: 0 0 0 0;
 	letter-spacing: -0.035em;
 	font-family: 'Assistant', sans-serif;
 }
