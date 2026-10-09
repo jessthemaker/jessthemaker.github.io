@@ -9,7 +9,9 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="Jess Hana, Brand and Product Designer">
 <meta property="og:description" content="Jess Hana is a brand and product designer who has spent 17 years helping brands connect with their people.">
-<meta property="og:image" content="images/og-image.png">
+<meta property="og:image" content="https://jesshana.com/images/og-image.png">
+<meta property="og:url" content="https://jesshana.com/">
+<link rel="canonical" href="https://jesshana.com/">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -323,7 +325,7 @@ dialog[open]{animation:rise .2s ease-out}
   <section class="block contact" id="contact" aria-labelledby="contact-title">
     <div class="wrap">
       <h2 id="contact-title">Contact</h2>
-      <p class="big">Have a brand that needs to make sense, or a product that needs some personality? Let's Talk <a href="mailto:hello@jesshana.com">hello@jesshana.com</a></p>
+      <p class="big">Have a brand that needs to make sense, or a product that needs some personality? Email <a href="mailto:hello@jesshana.com">hello@jesshana.com</a></p>
       <ul class="socials">
         <li><a href="https://www.linkedin.com/in/jessthemaker">LinkedIn</a></li>
         <li><a href="https://www.dribbble.com/jessthemaker">Dribbble</a></li>
@@ -477,7 +479,7 @@ const NEEDS = {
 };
 const CAP = { ll_green:"Image by Paul Shim", pixl_old:"Original PIXL Logotype", ttd_sup:"Me and Copper (my eldest fur child)" };
 /* ===== EDIT HERE =====
-   blank:true = dashed slot with an idea prompt
+   blank:true = dashed slot with an idea promp
    tint: 1-6 picks the placeholder color */
 const DISCIPLINES = [
   {id:"product", name:"Product and UX", desc:"Flows, screens, and systems that help people get where they're going without reading a manual."},
@@ -492,35 +494,35 @@ const DISCIPLINES = [
 const PROJECTS = [
   {id:"sesame", title:"Sesame Onboarding", client:"Sesame", tags:["product"], tint:6,
    cover:"ses_cover",
-   summary:"An onboarding flow for Sesame, a platform for modeling energy pathways. It takes new users from a blank account to a working pathway, with help built in at every step.",
+   summary:"Sesame is a platform for modeling energy pathways. It can do a lot, which also makes a brand-new account a little intimidating. I designed an onboarding flow that takes people from an empty account to their first working pathway, with help close by along the way.",
    gallery:[
      "ses_hero",
-     {h:"Start with What Matters"},
+     {h:"Start with what matters"},
      {scene:"create"},
-     {p:"The home screen leads with one action: create a project. Below it, short how-to videos cover the parts of Sesame that take the most explaining, and a What's new panel keeps returning users up to date."},
-     {p:"Creating a project takes one field. The new project opens with a Getting started checklist where only the current step shows an action, and inviting teammates can be skipped, so collaboration never blocks someone working solo."},
-     {h:"A Canvas That Explains Itself"},
-     {p:"An empty canvas is where new users stall, so it greets them with a plain next step. The Modules menu unrolls right over the canvas, grouped by category with search, so adding the first piece is one click. Selecting a node reveals its costs and emissions and a small toolbar, and settings open in a side panel without leaving the canvas."},
+     {p:"The first time you log in, there's one clear thing to do: create a project. Below that, I added short how-to videos for the parts of Sesame that take the most explaining, plus a What's new panel for returning users."},
+     {p:"Creating a project takes one field. From there, a Getting started checklist picks up. Only the next step gets a button, so it's always clear what to do. Inviting teammates can be skipped, so people working on their own aren't held up."},
+     {h:"A canvas that explains itself"},
+     {p:"An empty canvas is where new users tend to get stuck, so it opens with a simple next step. The Modules menu opens right over the canvas, sorted by category with search at the top, so adding the first piece takes one click. Selecting a node shows its costs, emissions, and a small toolbar, and settings open in a side panel so you never leave the canvas."},
      {scene:"build"},
-     {p:"Up close, the node's hover state does the explaining: the border firms up, a drawer of key numbers slides open, and the toolbar drops in."},
+     {p:"Up close, the hover state does a lot of the work. The border darkens, the key numbers slide open, and the toolbar appears."},
      {nodeAnim:true},
-     {h:"Details Without Losing Your Place"},
-     {p:"Parameters open in a side panel next to the canvas instead of a separate page. It can expand when someone needs room for detailed inputs, then tuck away again."},
+     {h:"Details without losing your place"},
+     {p:"Parameters open in a side panel next to the canvas instead of on a separate page. The panel expands when you need room for detailed inputs, then tucks back out of the way."},
      "ses_params2",
    ]},
   {id:"waypost", title:"Waypost Pricing", client:"Concept project", tags:["product","web","brand"], tint:3,
    cover:"wp_cover",
-   summary:"Waypost is a link-in-bio app, like Linktree, that also tracks which links turn into sales. I designed its pricing page and the component library behind it, working from the Waypost brand board.",
+   summary:"Waypost is a link-in-bio app, like Linktree, that also tracks which links turn into sales. Working from the Waypost brand board, I designed the pricing page and the component library behind it.",
    gallery:[
      {scroll:"wp_full", label:"The full Waypost pricing page scrolling from top to bottom"},
-     {h:"Show the Difference Before the Price"},
-     {p:"Most link-in-bio pricing pages lead with a feature list. Waypost's real difference is sales tracking, so the hero shows it working: a link page where revenue ticks up, each link shows its own sales, and a new sale pops in every few seconds."},
+     {h:"Show the difference before the price"},
+     {p:"Most link-in-bio pricing pages lead with a list of features. What sets Waypost apart is sales tracking, so I wanted to show it working before anyone reached the prices. The hero is a live link page where revenue ticks up, each link shows its own sales, and a new sale comes in every few seconds."},
      {scene:"wpHero"},
-     {h:"Make the Choice Easy"},
-     {p:"Three plans with trail names. The middle plan is the one most people should pick, so it gets the strongest treatment: Forest green, a slowly cycling border in the full brand gradient, and a 14-day trial instead of a hard sell. Switching to yearly slides the toggle and counts each price down to its new number."},
+     {h:"Make the choice easy"},
+     {p:"There are three plans, each named for a stop along the trail. The middle plan is the right fit for most people, so it stands out: Forest green, a slowly cycling border in the brand gradient, and a 14-day trial instead of a hard sell. Switching to yearly slides the toggle and counts each price down to its new number."},
      {scene:"wpToggle"},
-     {h:"A System, Not Just a Page"},
-     {p:"Every piece of the page comes from a small component library: color tokens with names, a type scale built on Archivo, buttons, the billing toggle, badges, form fields, the link page rows, the sale notice, and the FAQ item in both states."},
+     {h:"A system, not just a page"},
+     {p:"Every piece of the page comes from a small component library I built alongside it: named color tokens, a type scale built on Archivo, buttons, the billing toggle, badges, form fields, link page rows, the sale notification, and the FAQ item in both its open and closed states."},
      "wp_comp",
    ]},
   {id:"taxjar", title:"TaxJar", client:"TaxJar", tags:["brand","web","product"], tint:2,
